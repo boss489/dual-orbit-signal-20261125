@@ -1,0 +1,19 @@
+config_version=5
+
+[application]
+config/name="이중 궤도 신호원"
+run/main_scene="res://Main.tscn"
+config/features=PackedStringArray("4.7", "GL Compatibility")
+
+[display]
+window/size/viewport_width=360
+window/size/viewport_height=780
+window/stretch/mode="canvas_items"
+window/stretch/aspect="expand"
+
+[rendering]
+renderer/rendering_method="gl_compatibility"
+renderer/rendering_method.mobile="gl_compatibility"
+
+[input_devices]
+pointing/emulate_mouse_from_touch=false
